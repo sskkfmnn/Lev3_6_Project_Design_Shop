@@ -1,0 +1,132 @@
+/* Farbe: #323A45/#848484 */
+
+@font-face{
+    font-family:"KarlaBold";
+    src: url('../fonts/Karla-Bold.ttf');
+}
+
+@font-face{
+    font-family: "KarlaRegular";
+    src: url("../fonts/Karla-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 5vw 10vh;
+}
+
+header a{
+    color: black;
+    font-size: 2rem;
+    font-family: "KarlaBold";
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+.header_navi a{
+    color: black;
+    padding-left: 2vw;
+    font-size: 1.5rem;
+    font-family: "KarlaRegular";
+}
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+main{
+    font-family: "KarlaRegular";
+    font-size: 1.5rem;
+}
+
+#main_section1 img, #main_section4 img, #main_section7 img, #main_section10 img, #main_section13 img{
+    width: 90%;
+    height: 100%;
+    margin: 0 0 2vh 5vw;
+}
+
+#main_section1 article, #main_section4 article, #main_section7 article, #main_section10 article, #main_section13 article{
+    margin-left: 5vw;
+}
+
+.main_section1_article1, .main_section4_article1, .main_section7_article1, .main_section10_article1, .main_section13_article1{
+    color: #323A45;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vw;
+    margin-bottom: 1vh;
+}
+
+.main_section1_p1, .main_section4_p1, .main_section7_p1, .main_section10_p1, .main_section13_p1{
+    color: #848484;
+    margin: 0 0 5vh 5vw;
+}
+
+
+#main_section2, #main_section3, #main_section5, #main_section6, #main_section8, #main_section9, #main_section11, #main_section12, #main_section14{
+    display: flex;
+    margin: 0 0 5vh 5vw;
+}
+
+#main_section2 img, #main_section3 img, #main_section5 img, #main_section6 img, #main_section8 img, #main_section9 img, #main_section11 img, #main_section12 img, #main_section14 img{
+    width: 84%;
+}
+
+#main_section2 article, #main_section3 article, #main_section5 article, #main_section6 article, #main_section8 article, #main_section9 article, #main_section11 article, #main_section12 article, #main_section14 article{
+    margin: 2vh 5vw 1vh 0;
+    color: #323A45;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_section2_div1_p1, .main_section2_div2_p1, .main_section2_div3_p1, .main_section3_div1_p1, .main_section3_div2_p1, .main_section3_div3_p1, .main_section5_div1_p1, .main_section5_div2_p1, .main_section5_div3_p1, .main_section6_div1_p1, .main_section6_div2_p1, .main_section6_div3_p1, .main_section8_div1_p1, .main_section8_div2_p1, .main_section8_div3_p1, .main_section9_div1_p1, .main_section9_div2_p1, .main_section9_div3_p1, .main_section11_div1_p1, .main_section11_div2_p1, .main_section11_div3_p1, .main_section12_div1_p1, .main_section12_div2_p1, .main_section12_div3_p1, .main_section14_div1_p1, .main_section14_div2_p1, .main_section14_div3_p1{
+    color: #848484;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer{
+    font-family: "KarlaRegular";
+    font-size: 1.5rem;
+    margin: 10vh 5vw 10vh;
+}
+
+#footer_article1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#footer_article2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_article2_div3_subscribe{
+    font-family: "KarlaBold";
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer_article3_p1{
+    margin-top: 10vh;
+    color: #848484;
+}
